@@ -1,0 +1,23 @@
+<p id="notice"><%= notice %></p>
+
+<table>
+<th>
+Mobile
+</th>
+<th>
+Location
+</th>
+<th>
+Charges
+</th>
+<tr>
+<td><%= @bai.mobile %></td>
+<td><%= @bai.location %></td>
+<td><%= @bai.charges %></td><br>
+</tr>
+
+<tr>
+<td><%= link_to 'Edit', edit_bai_path(@bai) %> |</td>
+<td><%= link_to 'Back', bais_path %></td>
+</tr>
+</table>

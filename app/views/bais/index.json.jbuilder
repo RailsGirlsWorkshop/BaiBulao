@@ -1,0 +1,1 @@
+json.array! @bais, partial: 'bais/bai', as: :bai

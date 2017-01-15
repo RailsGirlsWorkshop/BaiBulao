@@ -1,0 +1,1 @@
+json.partial! "bais/bai", bai: @bai

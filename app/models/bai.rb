@@ -1,0 +1,2 @@
+class Bai < ApplicationRecord
+end
